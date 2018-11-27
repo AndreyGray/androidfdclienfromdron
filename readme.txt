@@ -10,5 +10,8 @@ Used technologys:
 6. Downloading images implemented with addition Picasso library version2.71828.
 7. I used singelton class as a data store which exists while the application is running.
 8. Saving images implemented using library Picasso and SaveImageHelper class.
+9. The application is localized in English, Russian and Ukrainian.
+
+Screencast my Android app MiniFacebookClient - https://youtu.be/oEvj2j0M0kU
 
 
