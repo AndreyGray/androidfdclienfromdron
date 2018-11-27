@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_login_color"
+    tools:context=".MainActivity">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        app:layout_constraintTop_toTopOf="@id/container_main"
+        app:layout_constraintBottom_toTopOf="@id/avatar"/>
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:src="@drawable/robott"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_margin="2dp"
+        app:layout_constraintTop_toBottomOf="@id/login_button"
+        app:layout_constraintStart_toStartOf="@id/container_main"
+        app:layout_constraintEnd_toEndOf="@id/container_main"
+        app:layout_constraintBottom_toTopOf="@id/user_name"
+        android:contentDescription="@string/avatar" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:text="@string/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/avatar"
+        app:layout_constraintBottom_toTopOf="@id/user_email"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/user_name"
+        app:layout_constraintBottom_toTopOf="@id/user_birthday"/>
+
+    <TextView
+        android:id="@+id/user_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/user_email"
+        app:layout_constraintBottom_toTopOf="@id/user_friends"/>
+    <TextView
+        android:id="@+id/user_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/user_birthday"
+        app:layout_constraintBottom_toTopOf="@+id/albums"/>
+
+    <Button
+        android:id="@+id/albums"
+        android:onClick="showAlbums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_button_background_color"
+        android:text="@string/display_albums"
+        android:textSize="16sp"
+        android:textColor="@color/com_facebook_button_text_color"
+        android:layout_margin="4dp"
+        android:textStyle="italic"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/user_friends"
+        app:layout_constraintEnd_toStartOf="@id/exit"
+        app:layout_constraintStart_toStartOf="@id/container_main"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/exit"
+        android:onClick="onExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_button_background_color"
+        android:text="@string/display_exit"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/com_facebook_button_text_color"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@id/albums"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_friends"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

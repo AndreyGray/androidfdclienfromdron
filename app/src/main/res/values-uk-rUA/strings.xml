@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">МiнiFb</string>
+    <string name="display_albums">Показати альбоми</string>
+    <string name="back">Назад</string>
+    <string name="toolbar_albums_title">Усi альбоми</string>
+    <string name="count_photos">Мiстить: %1$d фото</string>
+    <string name="photo">Фото</string>
+    <string name="name_photo">Iм\'я</string>
+    <string name="save">Зберегти</string>
+    <string name="number_photo_of">%1$d  з  %2$d</string>
+    <string name="alert_title">Зберегти фото?</string>
+    <string name="alert_questions">Змiнити iм\'я</string>
+    <string name="alert_positive_button">Зберегти</string>
+    <string name="alert_negative_button">Скасувати</string>
+    <string name="alert_exit">Вихiд</string>
+    <string name="alert_exit_title">Чи ви впевненi?</string>
+    <string name="display_exit">ВИХIД</string>
+    <string name="friends">Друзiв:</string>
+    <string name="albums">Альбом:</string>
+    <string name="add">Створено</string>
+    <string name="birthday">День народження:</string>
+    <string name="downloading">Збереження...</string>
+    <string name="welcome">WELCOME! Continue with Facebook</string>
+
+    <string-array name="month_of_year">
+        <item>Ciчня</item>
+        <item>Лютого</item>
+        <item>Березня</item>
+        <item>Квiтня</item>
+        <item>Травня</item>
+        <item>Червня</item>
+        <item>Липня</item>
+        <item>Серпня</item>
+        <item>Вепесня</item>
+        <item>Жовтня</item>
+        <item>Листопада</item>
+        <item>Грудня</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Миниклиент Facebook</string>
+    <string name="display_albums"> Показать альбомы </string>
+    <string name="back">Назад</string>
+    <string name="friends">Друзей:</string>
+
+
+    <string name="toolbar_albums_title"> Ваши альбомы </string>
+    <string name="count_photos">Сод.: %1$d фото</string>
+    <string name="albums">Альбом:</string>
+    <string name="add">Добавлено:</string>
+
+
+    <string name="photo">Фото</string>
+    <string name="name_photo">Имя</string>
+    <string name="save">Сохранить</string>
+    <string name="number_photo_of" > %1$d  из  %2$d</string>
+
+    <string name="alert_title">Хотите сохранить это фото?</string>
+    <string name="alert_questions"> Задайте имя</string>
+    <string name="alert_positive_button">Сохранить</string>
+    <string name="alert_negative_button">Отмена</string>
+    <string name="alert_exit">Выход</string>
+    <string name="alert_exit_title">Вы уверены что уверены?</string>
+    <string name="display_exit"> ВЫХОД </string>
+    <string name="birthday">Днюшка:</string>
+    <string name="downloading">Сохранение...</string>
+    <string name="welcome"> Подключитесь к Facebook, чтобы продолжить.</string>
+
+
+    <string-array name="month_of_year">
+        <item>Января</item>
+        <item>Февраля</item>
+        <item>Марта</item>
+        <item>Апреля</item>
+        <item>Майя</item>
+        <item>Июня</item>
+        <item>Июля</item>
+        <item>Августа</item>
+        <item>Сентября</item>
+        <item>Октября</item>
+        <item>Ноября</item>
+        <item>Декабря</item>
+    </string-array>
+
+
+</resources>

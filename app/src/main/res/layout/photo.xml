@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDarkDark"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/full_photo_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/photo" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/container_text"
+        app:layout_constraintBottom_toBottomOf="@+id/full_photo_img"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/like_round_button"
+            android:background="@drawable/round_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_thumb_18"
+            android:contentDescription="@string/photo"
+            app:layout_constraintBottom_toBottomOf="@id/container_text"/>
+
+        <TextView
+            android:id="@+id/likes_txt"
+            android:text="@string/count"
+            android:layout_marginStart="4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/like_round_button"
+            app:layout_constraintBottom_toBottomOf="@id/container_text"/>
+
+        <TextView
+            android:id="@+id/number_photo_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/number_photo_of"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/full_photo_date"
+            android:text="@string/photo_date"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/container_text"
+            app:layout_constraintBottom_toBottomOf="@id/container_text"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

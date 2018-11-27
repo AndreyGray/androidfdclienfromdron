@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">androidfdclienfromdron</string>
+    <string name="facebook_app_id" translatable="false">796196414045911</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb796196414045911</string>
+
+    <string name="avatar" translatable="false">avatar</string>
+    <string name="display_albums"> Display all albums </string>
+    <string name="friends">Friends:</string>
+
+    <string name="cover_photo" translatable="false">cover_photo</string>
+    <string name="album_name" translatable="false">Album_name</string>
+    <string name="back">Back</string>
+
+    <string name="toolbar_albums_title"> Yours albums </string>
+    <string name="count_photos">Cont: %1$d photos</string>
+    <string name="albums">Album:</string>
+
+    <string name="photo">Photo</string>
+    <string name="name_photo">Name</string>
+    <string name="photo_date" translatable="false">01.01.2018</string>
+    <string name="save">Save</string>
+    <string name="number_photo_of" > %1$d  of  %2$d</string>
+    <string name="count" translatable="false">25</string>
+
+    <string name="alert_title">Do you want save this photo?</string>
+    <string name="alert_questions"> Edit photo name</string>
+    <string name="alert_positive_button">Save</string>
+    <string name="alert_negative_button">Cancel</string>
+    <string name="alert_exit">Exit</string>
+    <string name="alert_exit_title">Are you sure you want to exit?</string>
+    <string name="display_exit"> EXIT </string>
+    <string name="add">Add:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="downloading">Downloading...</string>
+    <string name="welcome">WELCOME! Connect at Facebook  to continue.</string>
+
+
+    <string-array name="month_of_year">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+
+
+</resources>
